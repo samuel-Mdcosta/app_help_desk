@@ -63,10 +63,11 @@ fclose($arquivo);
                                 //trasforma a variavel em string para alocar denrtro dos card
                                 $chamado_dados = explode('#', trim($chamado));
 
-                                if($_SESSION['perfilID'] == 2){}
-                                //so exibe o chamado de ele foi feito pelo usuario
-                                if($_SESSION['id'] != $chamado_dados[0]){
-                                    continue;
+                                if($_SESSION['perfilID'] == 2){
+                                    //so exibe o chamado de ele foi feito pelo usuario
+                                    if($_SESSION['id'] != $chamado_dados[0]){
+                                        continue;
+                                    }
                                 }
 
                                 //elimina a ultima linha dentro do arquivo por causa do php_odl

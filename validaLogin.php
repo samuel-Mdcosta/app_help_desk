@@ -29,6 +29,7 @@
     //sendo inseri dentro do formulario
     foreach($usuario_app as $user){
         //valida se o email e senha cadastradas no fakeDb ($usuario_app) é a mesma que o usurio digitou no formulario
+        //faz o tratamento de negocio onde valida se o login esta send feito por um adm ou usuario
         if($user['email'] == $_POST['email'] && $user['senha'] == $_POST['senha']){
             $usuarioAutenticado = true;
             $usuario_Id = $user['id'];

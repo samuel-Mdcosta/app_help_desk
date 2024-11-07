@@ -1,6 +1,5 @@
 <?php
   require_once "validadorAcesso.php";
-  print_r($_SESSION);
 ?>
 
 <html>
