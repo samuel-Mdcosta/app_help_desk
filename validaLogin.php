@@ -20,6 +20,7 @@
     $usuario_app = array(
         array('id' => 1, 'email' =>'adm@teste.com.br','senha'=> '1234', 'perfilID' => 1),
         array('id' => 2,'email'=> 'user@teste.com.br','senha'=> '1234','perfilID' => 1),
+        array('id' => 2,'email'=> 'openadm@adiministrador.com.br','senha'=> '1234','perfilID' => 1),
         array('id' => 3,'email'=> 'jose@teste.com.br','senha'=> '1234', 'perfilID' => 2),
         array('id' => 4,'email'=> 'maria@teste.com.br','senha'=> '1234', 'perfilID' => 2),
         array('id' => 5, 'email' => 'marcos@teste.com.br', 'senha' => '1234', 'perfilID' => 2)
